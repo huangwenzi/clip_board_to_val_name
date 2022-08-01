@@ -12,7 +12,7 @@ replace_type: 替换类型 1、aa_bb => AaBb
 replace_len: 替换的字符串长度上限
 
 ## 关于exe
-可以直接使用打包好的main.exe
-大佬也可以修改代码后自行打包
-pyinstaller -F 文件名.py
-pyinstaller -F main.py
+可以直接使用打包好的main.exe  
+大佬也可以修改代码后自行打包  
+pyinstaller -F 文件名.py  
+pyinstaller -F main.py  
