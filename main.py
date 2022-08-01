@@ -20,7 +20,9 @@ def set_text(aString):
 
 # 键盘事件
 def on_press(key):
-    # print(key)
+    if print_key:
+        print(key)
+        
     # 是否是快捷键
     if key != keyboard.Key[replace_key]:
         return
@@ -49,11 +51,12 @@ def on_press(key):
 
 # 加载配置
 cfg = {}
-with open("./cfg.json") as f:
+with open("./cfg.json", encoding="utf8") as f:
     cfg = json.load(f)
 replace_key = cfg["replace_key"]
 replace_type = cfg["replace_type"]
 replace_len = cfg["replace_len"]
+print_key = cfg["print_key"]
 
 # 开始监听
 print("begin")
