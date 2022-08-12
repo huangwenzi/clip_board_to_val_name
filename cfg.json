@@ -1,7 +1,7 @@
 {
-    "replace_key" : "f8"
+    "replace_key" : "alt_gr"
     , "replace_type" : 1
     , "replace_len" : 30
-    , "print_key" : true
-    , "notes" : "replace_key: 替换的快捷键 推荐ctrl_r 右侧ctrl  replace_type: 替换类型 1、aa_bb => AaBb  replace_len: 替换的字符串长度上限  print_key: 是否打印按下的键"
+    , "print_key" : false
+    , "notes" : "replace_key: 替换的快捷键 推荐alt_gr 右侧ctrl  replace_type: 替换类型 1、aa_bb => AaBb  replace_len: 替换的字符串长度上限  print_key: 是否打印按下的键"
 }
